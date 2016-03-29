@@ -26,18 +26,14 @@ nav a{
 	font-size: 30px;
 }
 nav a:hover{
-	text-decoration: line-through;
-}
-nav a:active{
 	border-bottom: solid 3px black;
 }
 section{
 	position: absolute;
 	top: 100px;
 	left: 0px;
-	height: 100hv;
+	height: 100%;
 	width: 100vw;
-	background-color: red;
 	overflow: hidden;
 }
 .project{
@@ -45,6 +41,12 @@ section{
 	width: 33.33%;
 	float: left;
 	overflow: hidden;
+}
+.info{
+	padding-top: 100px;
+	text-align: center;
+    width: 50%;
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 780px) {
